@@ -16,7 +16,7 @@ jobs:
         uses: ./
         with:
           yourInstagram: dhiyo7
-          listOfInstagrams: pluginofficiall
+          listOfInstagrams: dhiyo7
       - name: Commit files
         if: ${{ success() && steps.rss.outputs.RSS_STATUS == 'success' }}
         run: |
