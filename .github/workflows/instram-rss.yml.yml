@@ -1,4 +1,4 @@
-name: RSS
+name: Insta RSS
 on:
   schedule:
     - cron: "0 17 * * *"
